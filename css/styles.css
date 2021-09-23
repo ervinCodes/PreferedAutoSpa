@@ -1,4 +1,39 @@
+/* Universal */
+h1, h2 {
+    font-family: 'Abhaya Libre', serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* HOME PAGE */
+
 /* Header */
 header {
-    padding: 200px 0 400px;
+    padding: 200px 0 210px;
 }
+
+.header-img {
+    background: url(/images/shop.jpg) no-repeat 50%;
+    background-size: cover;
+    /* position: relative; */
+    /* background-position: 100% 65%; */
+}
+
+section {
+    padding: 100px 0;
+}
+
+#headerTitle {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 5px;
+}
+
+/* Featured Service */
+
+section h1 {
+    color: #1accf8;
+}
+

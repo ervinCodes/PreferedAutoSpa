@@ -37,3 +37,24 @@ section h1 {
     color: #1accf8;
 }
 
+section p a {
+    text-decoration: none;
+}
+
+/* Footer */
+hr {
+    color: black;
+    background-color: black;
+    height: 2px;
+    border-width: 0;
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+

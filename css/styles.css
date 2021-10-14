@@ -14,6 +14,12 @@ header {
     padding: 200px 0 210px;
 }
 
+/* Footer */
+.site-footer {
+    background-image: linear-gradient(#050129, rgb(3, 3, 3));
+    padding: 20px 0; 
+}
+
 .header-img {
     background: url(/images/shop.jpg) no-repeat 50%;
     background-size: cover;
@@ -64,3 +70,19 @@ a:hover {
     box-shadow: 0px 0px 0px 5px white;
 }
 
+/* Contact */
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

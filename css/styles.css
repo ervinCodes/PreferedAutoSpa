@@ -1,10 +1,43 @@
 /* Universal */
-h1, h2, p {
+h1, h2, p, a{
     font-family: 'Sora', sans-serif;
+}
+
+h1 {
+    color: #C3073F; 
+    font-weight: bold;
+}
+
+h3 {
+    color: #C3073F;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h5 {
+    color: white;
+    text-decoration: underline;
+}
+
+p {
+    color: white;
+}
+
+body {
+    background-color: #1A1A1D;
+}
+
+ul {
+    color: white;
 }
 
 
 /* HOME PAGE */
+
+/* Nav */
+nav {
+    background-color: #4E4E50;
+}
 
 /* Header */
 header {
@@ -22,16 +55,6 @@ header {
     font-family: 'Tangerine', cursive;
 }
 
-/* Footer */
-.site-footer {
-    background-image: linear-gradient(#050129, rgb(3, 3, 3));
-    padding: 20px 0; 
-}
-
-a {
-    text-decoration: none;
-}
-
 /* Header */
 .header-img {
     background: url(/images/shop.jpg) no-repeat 50%;
@@ -42,12 +65,14 @@ a {
 
 section {
     padding: 100px 0;
+    background-color: #1A1A1D;
 }
 
 /* Featured Service */
 
 section h1 {
-    color: #1accf8;
+    color: #C3073F;
+    font-weight: bold;
 }
 
 section p a {
@@ -55,6 +80,16 @@ section p a {
 }
 
 /* Footer */
+
+.site-footer {
+    background-color: #4E4E50;
+    padding: 20px 0; 
+}
+
+a {
+    text-decoration: none;
+}
+
 hr {
     color: black;
     background-color: black;

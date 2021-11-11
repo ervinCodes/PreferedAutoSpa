@@ -1,5 +1,5 @@
 /* Universal */
-h1, h2, p, a{
+h1, h2, h4, p, a{
     font-family: 'Sora', sans-serif;
 }
 
@@ -31,14 +31,18 @@ ul {
     color: white;
 }
 
-
-/* HOME PAGE */
-
 /* Nav */
 nav {
     background-color: #4E4E50;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+.navbar-brand {
+    font-family: 'Tangerine', cursive;
+}
 /* Header */
 header {
     padding: 200px 0 210px;
@@ -51,9 +55,15 @@ header {
     font-family: 'Tangerine', cursive;
 }
 
-.navbar-brand {
-    font-family: 'Tangerine', cursive;
-}
+.social {
+    text-align: center;
+    height: auto;
+    width: auto;
+    background: rgba(12, 0, 0, 0.808);
+    border-radius: 100%;
+    line-height: 2rem;
+    color: rgba(2, 0, 0, 0.3);
+  }
 
 /* Header */
 .header-img {

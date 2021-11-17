@@ -3,7 +3,7 @@ h1, h2, h4, p, a{
     font-family: 'Sora', sans-serif;
 }
 
-h1 {
+h1, i {
     color: #C3073F; 
     font-weight: bold;
 }
@@ -124,7 +124,11 @@ a:hover {
 
 /* Contact */
 
-.map-responsive{
+
+
+
+/* For Map Use */
+/* .map-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
@@ -137,4 +141,4 @@ a:hover {
     height:100%;
     width:100%;
     position:absolute;
-}
+} */

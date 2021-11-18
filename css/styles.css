@@ -27,10 +27,6 @@ body {
     background-color: #1A1A1D;
 }
 
-ul {
-    color: white;
-}
-
 /* Nav */
 nav {
     background-color: #4E4E50;
@@ -43,6 +39,8 @@ a {
 .navbar-brand {
     font-family: 'Tangerine', cursive;
 }
+
+
 /* Header */
 header {
     padding: 200px 0 210px;
@@ -71,8 +69,6 @@ header {
 .header-img {
     background: url(/images/shop.jpg) no-repeat 50%;
     background-size: cover;
-    /* position: relative; */
-    /* background-position: 100% 65%; */
 }
 
 section {
@@ -87,8 +83,11 @@ section h1 {
     font-weight: bold;
 }
 
-section p a {
-    text-decoration: none;
+/* Services */
+
+ul {
+    list-style-type: none;
+    color: white;
 }
 
 /* Footer */
@@ -98,23 +97,12 @@ section p a {
     padding: 20px 0; 
 }
 
-a {
-    text-decoration: none;
-}
 
 hr {
     color: black;
     background-color: black;
     height: 2px;
     border-width: 0;
-}
-
-footer p a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 /* Gallery */
@@ -124,23 +112,3 @@ a:hover {
     box-shadow: 0px 0px 0px 5px white;
 }
 
-/* Contact */
-
-
-
-
-/* For Map Use */
-/* .map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-} */

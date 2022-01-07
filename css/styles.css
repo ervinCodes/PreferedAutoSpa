@@ -1,9 +1,12 @@
-/* Universal */
-h1, h2, h4, p, a{
+body {
+    background-color: #1A1A1D;
+}
+
+h1 h2 h4 p a {
     font-family: 'Sora', sans-serif;
 }
 
-h1, i {
+h1 i {
     color: #4E4E50; 
     font-weight: bold;
 }
@@ -23,9 +26,7 @@ p {
     color: white;
 }
 
-body {
-    background-color: #1A1A1D;
-}
+
 
 /* Nav */
 nav {

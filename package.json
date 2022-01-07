@@ -1,7 +1,7 @@
 {
   "name": "prefferedautospa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Preferred Auto Spa",
   "main": "index.html",
   "scripts": {
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",

@@ -1,115 +1,111 @@
 body {
-    background-color: #1A1A1D;
+  background-color: #1a1a1d;
 }
 
 h1 h2 h4 p a {
-    font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 }
 
 h1 i {
-    color: #4E4E50; 
-    font-weight: bold;
+  color: #a2a2a9;
+  font-weight: bold;
 }
 
 h3 {
-    color: #4E4E50;
-    font-style: italic;
-    text-decoration: underline;
+  color: #b9b9bd;
+  font-style: italic;
+  text-decoration: underline;
+  font-family: "Tangerine", cursive;
+  font-size: 3rem;
 }
 
 h5 {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 
 p {
-    color: white;
+  color: white;
 }
-
-
 
 /* Nav */
 nav {
-    background-color: #4E4E50;
+  background-color: #4e4e50;
 }
 
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .navbar-brand {
-    font-family: 'Tangerine', cursive;
+  font-family: "Tangerine", cursive;
 }
-
 
 /* Header */
 header {
-    padding: 200px 0 210px;
-    
+  padding: 200px 0 210px;
 }
 
 #headerTitle {
-    text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
-    font-size: 8rem;
-    display: inline-block;
-    padding: 5px;
-    font-family: 'Tangerine', cursive;
+  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+  font-size: 8rem;
+  display: inline-block;
+  padding: 5px;
+  font-family: "Tangerine", cursive;
 }
 
 .social {
-    text-align: center;
-    height: auto;
-    width: auto;
-    background: rgba(12, 0, 0, 0.808);
-    border-radius: 100%;
-    line-height: 2rem;
-    color: rgba(2, 0, 0, 0.3);
-  }
+  text-align: center;
+  height: auto;
+  width: auto;
+  background: rgba(12, 0, 0, 0.808);
+  border-radius: 100%;
+  line-height: 2rem;
+  color: rgba(2, 0, 0, 0.3);
+}
 
 /* Header */
 .header-img {
-    background: url(/images/shop.jpg) no-repeat 50%;
-    background-size: cover;
+  background: url(/images/shop.jpg) no-repeat 50%;
+  background-size: cover;
 }
 
 section {
-    padding: 100px 0;
-    background-color: #1A1A1D;
+  padding: 100px 0;
+  background-color: #1a1a1d;
 }
 
 /* Featured Service */
 
 section h1 {
-    color: #4E4E50;
-    font-weight: bold;
+  color: #4e4e50;
+  font-weight: bold;
 }
 
 /* Services */
 
 ul {
-    list-style-type: none;
-    color: white;
+  list-style-type: none;
+  color: white;
 }
 
 /* Footer */
 
 .site-footer {
-    background-color: #4E4E50;
-    padding: 20px 0; 
+  background-color: #4e4e50;
+  padding: 20px 0;
 }
 
-
 hr {
-    color: black;
-    background-color: black;
-    height: 2px;
-    border-width: 0;
+  color: black;
+  background-color: black;
+  height: 2px;
+  border-width: 0;
 }
 
 /* Gallery */
 #homeCarousel {
-    border: 1px solid black;
-    background-color: white;
-    box-shadow: 0px 0px 0px 5px white;
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: 0px 0px 0px 5px white;
 }
-
